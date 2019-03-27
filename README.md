@@ -112,6 +112,7 @@ Example:
 //Smaller Main and still readable
 void main() {
   runApp(MaterialApp(
+    title: 'Fam Jam',
     theme: ThemeData(fontFamily: 'SpaceGrotesk', brightness: Brightness.dark),
     home: MyApp(),
   ));
@@ -121,6 +122,7 @@ void main() {
 void main() {
   runApp(
     MaterialApp(
+      title: 'Fam Jam',
       theme: ThemeData(
         fontFamily: 'SpaceGrotesk',
         brightness: Brightness.dark,  //Added here

@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(
     MaterialApp(
+      title: 'Fam Jam',
       theme: ThemeData(
         fontFamily: 'SpaceGrotesk',
         brightness: Brightness.dark,
@@ -35,7 +36,7 @@ class MyApp extends StatelessWidget {
 
   final List _groups = [
     'Mom & Dad',
-    'Uncle Aunty',
+    'Uncle & Aunt',
     'My Fam',
     'Grandparents',
   ];

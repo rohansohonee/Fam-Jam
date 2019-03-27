@@ -1,40 +1,35 @@
 # Fam Jam
 
-Share your opinions with family members.
+Share your opinions with family members. 
 
+Fam Jam creates family groups where you can put across your
+- Opinions
+- Ask questions
+- Share photos/videos
+- Message your grandparents
+- Assign chores
+
+All in one place, thus avoiding hassles of having a family group on WhatsApp where you might accidentally send a message to the wrong group!
 
 ## Getting Started
-
-This project has been tested and run on an Android device.
-
-#### The total size of main.dart is < 5 KB.
-
-- To install and run this project on your Android device, enter the following command into the terminal:
+```
+NOTE:- This project has been tested and run on an Android device. The total size of main.dart is 5,078 bytes.
+```
+To install and run this project on your Android device:
+1. Extract the ZIP file.
+2. Open the extracted folder in Visual Studio Code.
+3. Now run the following command into the terminal:
 ```
 flutter run --release
 ```
 
-- For customising the AppBar, you can make changes to the following code:
+For customising the AppBar, you can make changes to the following code:
 ```dart
-_myAppBar(String text) {
-  return AppBar(
-    centerTitle: true,
-    title: Text(
-      text,
-      style: TextStyle(
-        fontFamily: 'Lovelo',
-        fontSize: 30.0,
-      ),
-    ),
-  );
-}
-```
+Example:
 
-- Example
-```dart
 _myAppBar(String text, bool centerTitle, TextTheme myCustomTextTheme) {
   return AppBar(
-    centerTitle: centerTitle,     //change the position of AppBar Title 
+    centerTitle: centerTitle,     //toggle centerTitle
     title: Text(
       text,
       style: TextStyle(
@@ -50,7 +45,8 @@ _myAppBar(String text, bool centerTitle, TextTheme myCustomTextTheme) {
 ## Features
 - Long Press on a FilterChip (opinion) deletes the chip.
 - 'Add your opinion' text field adds a new FilterChip (opinion).
-- Created a custom Card Widget which contains image and a text.
+
+Created a custom Card Widget which contains image and a text.
 ```dart
 _card(int index) {
     return Padding(

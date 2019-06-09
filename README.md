@@ -11,6 +11,10 @@ Fam Jam creates family groups where you can put across your
 
 All in one place, thus avoiding hassles of having a family group on WhatsApp where you might accidentally send a message to the wrong group!
 
+## Screenshots
+<p align=center>
+<img src="/screenshots/1.png" width="250"> <img src="/screenshots/2.png" width="250" >  <img src="/screenshots/4.png" width="250"> <img src="/screenshots/3.png" width="250"> </p>
+
 ## Getting Started
 ```
 NOTE:- This project has been tested and run on an Android device. The total size of main.dart is 5,078 bytes.

@@ -47,8 +47,8 @@ _myAppBar(String text, bool centerTitle, TextTheme myCustomTextTheme) {
 ```
 
 ## Features
-- Long Press on a FilterChip (opinion) deletes the chip.
-- 'Add your opinion' text field adds a new FilterChip (opinion).
+- [x] Long Press on a FilterChip (opinion) deletes the chip.
+- [x] 'Add your opinion' text field adds a new FilterChip (opinion).
 
 Created a custom Card Widget which contains image and a text.
 ```dart
